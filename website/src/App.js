@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Mateja from "./pages/mateja";
+import Suhas from "./pages/suhas";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 function App() {
   const router = createBrowserRouter([
@@ -9,6 +10,10 @@ function App() {
     {
       path: "/mateja",
       element: <Mateja />,
+    },
+    {
+      path: "/suhas",
+      element: <Suhas />,
     },
   ])
   return (
