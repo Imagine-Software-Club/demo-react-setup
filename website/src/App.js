@@ -2,9 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Mateja from "./pages/mateja";
 
+import Rahul from "./pages/Rahul";
+
+
 import Suhas from "./pages/suhas";
 
 import TuanHua from "./pages/tuanhua";
+
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Nikhil from './pages/nikhil';
@@ -16,6 +20,12 @@ function App() {
       path: "/mateja",
       element: <Mateja />,
     },
+
+    {
+      path: "/Rahul",
+      element: <Rahul />,
+    },
+
 
     { path: "/nikhil",
     element: <Nikhil />,},
@@ -30,6 +40,7 @@ function App() {
       element: <TuanHua />,
 
     },
+
 
   ])
   return (
